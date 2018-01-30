@@ -1,0 +1,120 @@
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 8px 0;
+  background-color: #dcbb9a; }
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #ffffff; }
+
+h1 {
+  text-transform: none;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+  color: #893c00; }
+
+p {
+  margin-top: 20px;
+  color: #000000; }
+
+h2 {
+  margin: 21px 0;
+  color: #893c00; }
+
+.img-left {
+  float: left;
+  margin-right: 19px;
+  border: 1px solid #893c00;
+  padding: 1px; }
+
+.img-right {
+  float: right;
+  margin-left: 19px;
+  border: 1px solid #893c00;
+  padding: 1px; }
+
+.brief {
+  color: #000;
+  float: left;
+  padding: 20px;
+  background-color: #fadcba;
+  width: 384px;
+  margin: 0 20px 20px 0; }
+
+a {
+  color: #3d70a1;
+  padding-top: 12px;
+  display: block; }
+  a + h1 {
+    padding-top: 10px; }
+
+table {
+  margin-top: 20px;
+  border: none;
+  border-collapse: collapse; }
+
+caption {
+  text-align: right; }
+
+th {
+  color: black;
+  background-color: #e0e0e0;
+  padding: 13px 20px;
+  border-right: 1px solid white;
+  font-weight: normal;
+  text-transform: uppercase; }
+  th:last-child {
+    border-right: none; }
+
+td {
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 13px 20px;
+  background-color: #ffffff; }
+  td a {
+    padding-top: 0; }
+
+form {
+  margin-top: 28px; }
+  form .input-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    form .input-wrapper .input-block {
+      width: 50%; }
+      form .input-wrapper .input-block p {
+        margin-top: 0; }
+      form .input-wrapper .input-block:first-child {
+        margin-right: 7px; }
+  form p {
+    color: #808080;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 9px; }
+  form input, form textarea {
+    width: calc(100% - 14px);
+    padding: 6px;
+    border: 1px solid #e0e0e0;
+    font-size: 12px; }
+    form input:placeholder, form textarea:placeholder {
+      font-size: 12px; }
+  form textarea {
+    height: 154px; }
+  form input[type="submit"] {
+    width: auto;
+    margin-top: 24px;
+    font-size: 20px;
+    padding: 12px 63px;
+    border: 1px solid #3d70a1;
+    background-color: #ffffff;
+    color: #3d70a1;
+    margin-bottom: 35px;
+    text-transform: none; }

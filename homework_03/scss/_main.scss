@@ -1,0 +1,149 @@
+@mixin borderImage {
+    border: 1px solid $headingColor;
+    padding:1px;
+} 
+
+@mixin brief {
+  color: #000;
+  float: $briefFloat;
+  padding: $briefPadding;
+  background-color: $briefColor;
+  width: $briefWidth;
+  margin: $briefMargin;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  margin: 0;
+  padding:8px 0;
+  background-color: $backgroundColor;
+}
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: $contentBackground;
+   } 
+
+h1 {
+    text-transform: $sizeOfHeadings;
+    margin: 0;
+    padding-top: 20px;
+ text-align: center;
+
+  color: $headingColor;
+   }
+p{
+    margin-top: 20px;
+    color: $textColor;
+
+}
+h2{
+    margin:21px 0;
+    color: $headingColor;
+}
+
+.img-left{
+    float: left;
+    margin-right: 19px;
+    @include borderImage;
+
+}
+.img-right{
+    float: right;    
+    margin-left: 19px;
+    @include borderImage;
+}
+.brief{
+    @include brief;
+}
+a{
+    color: $linkColor;
+    padding-top: 12px;
+    display: block;
+    +h1{
+        padding-top: 10px;
+    }
+}
+table {
+    margin-top: 20px;
+    border: none;    
+    border-collapse: collapse; 
+    }
+caption{
+    text-align: right;
+}
+th{ color: black;
+    background-color:$tableHeading;
+    padding: 13px 20px;
+    border-right: 1px solid white;
+    font-weight: normal;
+    text-transform: uppercase;
+    &:last-child{
+        border-right:none;
+    }
+}
+td{
+    color: $textColor;
+       border-bottom: 1px solid $tableHeading;
+       padding: 13px 20px;
+       background-color: $tableColor ;
+       a{
+        padding-top: 0; 
+       }
+}
+
+
+form{
+
+    .input-wrapper{
+        display: flex;
+        .input-block{
+            p{
+                margin-top: 0;
+            }
+            width: 50%;
+            &:first-child{
+                margin-right: 7px;
+            }
+
+        }
+    }
+
+    margin-top: 28px;
+    p{
+        color: $formColor;
+        text-transform: uppercase;
+        font-size: 17px;
+        margin-bottom: 9px;
+    }
+    input,textarea{
+        width: calc(100% - 14px);
+        padding: 6px;
+        border: 1px solid $tableHeading ;
+        font-size: 12px;
+        &:placeholder{
+            font-size: 12px;
+        }
+    }
+    textarea{
+        height: 154px;
+    }
+    input[type="submit"]{ 
+        width: auto;
+        margin-top: 24px;
+        font-size: 20px;
+        padding: 12px 63px;
+        border: 1px solid $buttonColor;
+        background-color: $contentBackground;
+        color: $buttonColor;
+        margin-bottom: 35px;
+        text-transform: $sizeOfHeadings;
+    }
+
+
+} 
