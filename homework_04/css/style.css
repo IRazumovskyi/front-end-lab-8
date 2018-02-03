@@ -1,0 +1,253 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: "Open Sans", sans-serif;
+}
+ .content-align {
+     padding: 0 20px;
+     margin: 0 auto;
+     width: calc(100% - 40px);
+     max-width: 1170px;
+}
+ .btn {
+     display: block;
+     color: #FFF;
+     border: 2px solid #FFF;
+     background-color: #343638;
+}
+ .sub-btn {
+     background-color: #343638;
+     color: #FFF;
+     text-align: center;
+     border: none;
+}
+ header {
+     background-image: url(../img/apples.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     color: #FFF;
+     padding-bottom: 100px;
+}
+ header .header-top {
+     height: 28px;
+     padding-top: 49px;
+}
+ header .header-top .logo {
+     float: left;
+     font-size: 14px;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+}
+ header .header-top nav {
+     float: right;
+}
+ header .header-top nav a {
+     text-decoration: none;
+     margin-right: 60px;
+     color: #FFF;
+     font-size: 14px;
+}
+ header .header-top nav a:first-child {
+     margin-right: 50px;
+     padding: 0 10px;
+     padding-bottom: 16px;
+     border-bottom: 1px solid #B7C8D9;
+}
+ header h2 {
+     margin: 0 auto;
+     margin-top: 215px;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 40px;
+     font-weight: normal;
+     letter-spacing: 5px;
+     position: relative;
+}
+ header h2 .ampersand {
+     font-size: 70px;
+     font-family: "Times New Roman";
+}
+ header h2 .trade-mark {
+     font-size: 20px;
+     position: absolute;
+     top: 28px;
+}
+ header p {
+     margin-top: 10px;
+     font-size: 14px;
+     text-align: center;
+}
+ header button {
+     padding: 22px 78px;
+     margin: 0 auto;
+     margin-top: 175px;
+}
+ .proposes .paragraphs-wrapper {
+     display: flex;
+     justify-content: space-between;
+     padding: 140px 0;
+}
+ .proposes .paragraphs-wrapper .left-paragraph {
+     font-size: 24px;
+     max-width: 40%;
+}
+ .proposes .paragraphs-wrapper .right-paragraph {
+     font-size: 13px;
+     max-width: 50%;
+}
+ article {
+     background-color: #F3F3F3;
+     padding-bottom: 180px;
+}
+ article h2 {
+     font-size: 20px;
+     padding-top: 150px;
+     margin-bottom: 90px;
+     text-align: center;
+     font-weight: normal;
+}
+ article .images-container {
+     display: flex;
+     max-width: 1177px;
+     flex-wrap: wrap;
+}
+ article .img-big {
+     width: 65%;
+}
+ article .img-small {
+     width: 31%;
+}
+ article .images-item {
+     margin-bottom: 30px;
+     max-height: 300px;
+     position: relative;
+}
+ article .images-item img {
+     width: 100%;
+     border: 1px solid #FFF;
+}
+ article .images-item:nth-child(2n+1) {
+     margin-right: auto;
+}
+ article .images-item button {
+     position: absolute;
+     display: block;
+     color: #FFF;
+     border: 2px solid #FFF;
+     width: 70px;
+     height: 40px;
+     background-color: #343638;
+     top: 18px;
+     right: 18px;
+}
+ article p {
+     position: absolute;
+     font-size: 20px;
+     color: #FFF;
+     bottom: 28px;
+     left: 34px;
+}
+ article .subscribe-block-wrapper {
+     margin-top: 60px;
+     background-color: #FFF;
+}
+ article .subscribe-block-wrapper .subscribe-block {
+     display: flex;
+     padding: 90px 105px;
+     align-items: center;
+}
+ article .subscribe-block-wrapper .subscribe-block h2 {
+     font-size: 23px;
+     padding-top: 0;
+     margin-bottom: 0;
+}
+ article .subscribe-block-wrapper .subscribe-block .input-wrapper {
+     margin-left: auto;
+     display: flex;
+     align-items: center;
+     width: 63%;
+     max-width: 570px;
+}
+ article .subscribe-block-wrapper .subscribe-block .input-wrapper input {
+     border: 1px solid #343638;
+     padding: 24px 0 24px 30px;
+     width: calc(72% - 48px);
+     font-size: 13px;
+     background-color: #F3F3F3;
+}
+
+ article .subscribe-block-wrapper .subscribe-block .input-wrapper input::placeholder {
+     color: #000;
+}
+ article .subscribe-block-wrapper .subscribe-block .input-wrapper button {
+     width: 28%;
+     padding: 25px 0;
+}
+ .info-wrapper {
+     margin-top: 140px;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 130px;
+}
+ .info-wrapper .info-item {
+     max-width: 200px;
+     width: 18%;
+}
+ .info-wrapper .info-item:nth-child(2) p {
+     line-height: 1.9;
+}
+ .info-wrapper .info-item:nth-child(4) {
+     max-width: 270px;
+     width: 24%;
+}
+ .info-wrapper .info-item h2 {
+     font-size: 19px;
+     margin-bottom: 30px;
+}
+ .info-wrapper .info-item p {
+     font-size: 15px;
+     color: #9E9E9E;
+}
+ .info-wrapper .info-item span {
+     margin-top: 15px;
+     color: #E8E8E8;
+     font-size: 15px;
+     display: block;
+}
+ .info-wrapper .info-item .input-wrapper {
+     margin-top: 30px;
+     margin-left: auto;
+     display: flex;
+     align-items: center;
+}
+ .info-wrapper .info-item .input-wrapper input {
+     border: 1px solid #343638;
+     width: 56%;
+     padding-left: 20px;
+     font-size: 14px;
+     height: 48px;
+     background-color: #F3F3F3;
+}
+ .info-wrapper .info-item .input-wrapper button {
+     height: 50px;
+     width: 37%;
+}
+ footer {
+     border-top: 1px solid #F0F0F0;
+     padding: 34px 0;
+     overflow: auto;
+}
+ footer .copyright {
+     float: left;
+     font-size: 14px;
+     color: #A4A4A4;
+}
+ footer nav {
+     float: right;
+}
+ footer nav a {
+     margin-left: 50px;
+     color: #000;
+     text-decoration: none;
+}
