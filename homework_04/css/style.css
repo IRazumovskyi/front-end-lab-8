@@ -20,6 +20,10 @@
      color: #FFF;
      text-align: center;
      border: none;
+	 hover:
+}
+button:hover{
+	cursor:pointer;
 }
  header {
      background-image: url(../img/apples.jpg);
