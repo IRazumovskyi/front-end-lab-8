@@ -1,0 +1,30 @@
+/* Your styles goes here */
+ul{
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+i {
+  color: rgb(237,188,11);
+}
+.file i {
+  color: rgb(187,187,187);
+}
+#root div {
+
+  display: flex;
+  align-items: center;
+}
+#root div:hover {
+  background-color: rgb(239,239,239);
+  cursor: pointer;
+}
+.empty{
+  font-style: italic;
+  margin-left: 10px;
+}
+p{
+	display:inline;
+  margin: 0;
+}
